@@ -1,7 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
+import HelloWorld from './components/HelloWorld'
 
 function App() {
+  const name = 'Reirysson'
+
   return (
     <div className="App">
       <header className="App-header">
@@ -9,14 +12,16 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <p>{name} será o vencedor!</p>
         <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+        Learn React
         </a>
+        <HelloWorld />
       </header>
     </div>
   );
