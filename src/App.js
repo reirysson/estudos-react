@@ -9,11 +9,7 @@ function App() {
   return (
     <Router>
       <Navbar />
-      <Routes>
-        <Route exact path="/" element={<Home />}></Route>
-        <Route exact path="/Empresa" element={<Empresa />}></Route>
-        <Route exact path="/Contato" element={<Contato />}></Route>
-      </Routes>
+      
     <Footer />
     </Router>
     
